@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elephant Cresta Lodge - Victoria Falls</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .grid-item {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        .grid-item img {
+            width: 100%;
+            height: auto;
+        }
+        form {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #555;
+        }
+        #b{
+            width: 200px;
+        }
+        #whatsapp{
+            width: 40px;
+            border-radius: 5px;
+        }
+        P{
+            text-align: center;
+            color: grey;
+            align-items: center;
+        }
+        h4{
+            color: white;
+            background-color: black;
+            align-items: center;
+            text-align: center;
+            font-size: 30px;
+        }
+        #c{
+            width: 600px;
+            border-radius: 10px;
+        }
+        footer{
+            color: white;
+            background-color: grey;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Elephant Cresta Lodge - Victoria Falls</h1><img id="b" src="images/logo.jpeg">
+        <p>Your ideal getaway in the heart of nature</p>
+    </header>
+    <div class="container">
+        <h2>Welcome to Elephant Cresta Lodge</h2> <a href="https://api.whatsapp.com/send?phone=%2B263789330076&data=ARArWsDNitpWZheDda1cy78LTY1BSsjPn6c5_YJ492M1sTHf3qNvD9NDIKQxi_jQQN-PvMdjncOxTtlHWB-y1_5s_Igx-9PST05H4AMjusDB4CCMF_-stHU1mlAIxp1cleMGK6mV5_FgCKuf0aYLcvM4Vw&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR35dsDp1hRv3XR7CKfl_JQFM9sFJfqnGRnaL3AUPwHv1xIcT_6wOcCfSX0"><img id="whatsapp" src="images/whats.jpeg">Whatsapp<a/><br>
+            <br>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="images/w.jpeg" alt="Image 1">
+            </div>
+            <div class="grid-item">
+                <img src="images/o.jpeg" alt="Image 2">
+            </div>
+            <div class="grid-item">
+                <img src="images/k.jpeg" alt="Image 3">
+            </div>
+
+            <div class="grid-item">
+                <img src="images/a.jpeg" alt="Image 1">
+            </div>
+            <div class="grid-item">
+                <img src="images/t.jpeg" alt="Image 2">
+            </div>
+            <div class="grid-item">
+                <img src="images/j.jpeg" alt="Image 3">
+            </div>
+            <!-- Add more images as needed -->
+        </div>
+        
+        <h3>Book Your Stay</h3>
+        <form action="book.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="check_in" placeholder="Check-in Date" required>
+            <input type="text" name="check_out" placeholder="Check-out Date" required>
+            <input type="submit" value="Book Now">
+        </form>
+    </div>
+    <hr>
+    <br>
+    <h4>About Us</h4><br>
+    <br>
+   <p> Welcome to Elephant's Crest Lodge, where luxury meets adventure amidst the breathtaking landscapes of Victoria Falls, Zimbabwe.<br> Nestled just 1.5 kilometers from the renowned Victoria Falls Game Reserve, our lodge invites you to embark on a journey of <br>unparalleled safari experiences.<br>
+
+At Elephant's Crest Lodge, we pride ourselves on offering discerning travelers the epitome of luxury accommodation coupled with<br> exhilarating wildlife encounters. Imagine waking up to the calls of the wild and stepping onto your private veranda to witness elephants<br> majestically roaming nearby, as the African sun paints the sky in hues of orange and gold.<br>
+
+Our lodge provides a sanctuary of comfort and elegance, where every detail has been meticulously crafted to ensure your stay exceeds<br> expectations. Indulge in spacious and lavishly appointed rooms, each offering panoramic views of the surrounding wilderness. Unwind in <br>style amidst modern amenities while immersing yourself in the sights and sounds of the African bush.<br>
+
+Venture out on guided safari excursions led by our experienced rangers, as you traverse the untamed terrain in search of Africa's iconic<br> Big Five and other mesmerizing wildlife species. Whether it's a thrilling game drive, a serene bush walk, or a captivating sunset river <br>cruise, every moment promises to be filled with awe and wonder.<br>
+
+Beyond the safari, Elephant's Crest Lodge offers a myriad of unforgettable experiences, from cultural encounters with local communities to<br> adrenaline-pumping activities such as bungee jumping or helicopter rides over the majestic Victoria Falls.<br>
+
+Come and experience the ultimate blend of luxury and adventure at Elephant's Crest Lodge, where every day brings new discoveries and <br>unforgettable memories in the heart of Zimbabwe's wilderness. Your safari adventure of a lifetime awaits.<br></p>
+<br>
+<hr>
+<br>
+
+<a href="https://www.airbnb.com/rooms/1119558565545731068?guests=1&adults=1&s=67&unique_share_id=18cb2cdc-8fb7-4058-b6e0-5209b75046a6">Air B n B Booking</a><br>
+<br>
+<p>
+<img id="c" src="images/vic.jpeg"><br><br>
+<img id="c" src="images/voc.jpeg"><br><br>
+<img id="c" src="images/vac.jpeg"><br><br>
+
+<hr>
+<footer>
+    @copy Elephant Crest Lodge 2024
+</footer>
+</p>
+
+
+
+</body>
+</html>
