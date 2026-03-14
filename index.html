@@ -1,279 +1,629 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="google-site-verification" content="IV5hE9-U2PdDQVx49nSc63_9Fq8UAIO-eZGFNQEg5NM" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Elephants Crest Lodge">
-	<meta name="keywords" content="Lodge in Victoria Falls, Guest house near me, Crest Lodge, Elephants Crest, Boat ridding, Canoeing, helicopter ride in vic falls">
-	
-    <title>Elephant Cresta Lodge - Victoria Falls</title>
+    <!-- Primary meta tags -->
+    <title>Elephant's Crest Lodge | Luxury Safari Victoria Falls</title>
+    <meta name="description" content="Elephant's Crest Lodge: luxury meets adventure 1.5km from Victoria Falls Game Reserve. Book safari, canoeing, helicopter rides, and elegant rooms.">
+    <meta name="keywords" content="Lodge in Victoria Falls, Guest house near me, Crest Lodge, Elephants Crest, Boat riding, Canoeing, helicopter ride in vic falls, luxury safari, Zimbabwe accommodation">
+    <meta name="author" content="Elephant's Crest Lodge">
+    <meta name="google-site-verification" content="IV5hE9-U2PdDQVx49nSc63_9Fq8UAIO-eZGFNQEg5NM" />
+    
+    <!-- Open Graph for social media -->
+    <meta property="og:title" content="Elephant's Crest Lodge - Victoria Falls">
+    <meta property="og:description" content="Wake up to elephants roaming. Luxury lodge near Victoria Falls. Book your stay now.">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630?text=Elephant%27s+Crest+Lodge">
+    <meta property="og:url" content="https://www.elephantscrestlodge.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Font Awesome 5 (icons) & Google Font for modern look -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 20px;
-        }
-        .grid-item {
-            border: 1px solid #ddd;
-            padding: 10px;
-        }
-        .grid-item img {
-            width: 100%;
-            height: auto;
-        }
-        form {
-            margin-top: 20px;
-            border: 1px solid #ccc;
-            padding: 20px;
-        }
-        form input[type="text"],
-        form input[type="email"],
-        form input[type="submit"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-        }
-        form input[type="submit"] {
-            background-color: #333;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-        }
-        form input[type="submit"]:hover {
-            background-color: #555;
-        }
-        #b{
-            width: 200px;
-        }
-        #whatsapp{
-            width: 40px;
-            border-radius: 5px;
-        }
-        P{
-            text-align: center;
-            color: grey;
-            align-items: center;
-        }
-        h4{
-            color: white;
-            background-color: black;
-            align-items: center;
-            text-align: center;
-            font-size: 30px;
-        }
-        #c{
-            width: 600px;
-            border-radius: 10px;
-        }
-        footer{
-            color: white;
-            background-color: grey;
-            text-align: center;
-        }
-        #d{
-            width: 50px;
-            border-radius: 5px;
-            margin-left: 40px;
-        }
-        #d:hover{
-            opacity: 0.6;
-            transition: 0.19s;
-            cursor: pointer;
-        }
-        #safari:hover{
-            color: yellow;
-            background-color: red;
-            opacity: 0.6;
-            transition: 0.19s;
-            cursor: pointer;
-        }
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multi-language Website</title>
-    <style>
+
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #faf7f2;
+            color: #2e2e2e;
+            line-height: 1.6;
+            scroll-behavior: smooth;
         }
-        select {
-            padding: 5px;
-            margin-bottom: 20px;
+
+        /* modern header with overlay & animation */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                        url('https://images.unsplash.com/photo-1569344885250-2557b3e96a77?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 1rem;
+            position: relative;
+            clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+            animation: fadeIn 1.8s ease;
         }
-	    #french{
-		    margin-left: 50px;
-	    }
-	    #french:hover{
-		    transition: 0.18s;
-		    opacity: 0.6;
-		    cursor: pointer;
-		    color: grey;
-		    background-color: green;
-	    }
-    </style>
-    <script>
-        const translations = {
-            en: {
-                title: "Welcome to Our Website",
-                content: " Select a language from the dropdown menu.",
-                languageLabel: "Choose Language:",
-                header: "Your Home Away From Home",
-                footer: "Footer Section",
-                about: "About Us",
-                contact: "Contact Us"
-            },
-            es: {
-                title: "Bienvenido a Nuestro Sitio Web",
-                content: "Este es un ejemplo simple de un sitio web multilingüe. Seleccione un idioma del menú desplegable.",
-                languageLabel: "Elija el idioma:",
-                header: "Sección de Cabecera",
-                footer: "Sección de Pie de Página",
-                about: "Sobre Nosotros",
-                contact: "Contáctenos"
-            },
-            fr: {
-                title: "Bienvenue sur Notre Site Web",
-                content: "Ceci est un exemple simple de site web multilingue. Sélectionnez une langue dans le menu déroulant.",
-                languageLabel: "Choisissez la langue:",
-                header: "Section d'en-tête",
-                footer: "Section de pied de page",
-                about: "À Propos de Nous",
-                contact: "Contactez Nous"
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(15px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        .hero-content h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 10vw, 4.5rem);
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 20px rgba(0,0,0,0.4);
+            margin-bottom: 0.5rem;
+        }
+
+        .hero-content p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            font-weight: 300;
+        }
+
+        .btn {
+            background-color: #d4a373;
+            color: #1e1e1e;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+            border: 2px solid transparent;
+            display: inline-block;
+            margin: 0.5rem;
+            box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+        }
+
+        .btn i {
+            margin-right: 8px;
+        }
+
+        .btn:hover {
+            background-color: #b98a5f;
+            transform: scale(1.05) translateY(-3px);
+            border-color: white;
+            box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid white;
+            color: white;
+        }
+
+        .btn-outline:hover {
+            background: white;
+            color: #2e2e2e;
+        }
+
+        /* language bar */
+        .lang-bar {
+            background: #2c3e4e;
+            padding: 0.8rem 1.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 1.2rem;
+            color: #eee;
+            font-size: 0.9rem;
+        }
+
+        .lang-bar select {
+            padding: 0.4rem 1rem;
+            border-radius: 30px;
+            border: none;
+            background: #f0ebe5;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .lang-links a {
+            color: #f0dbb6;
+            margin: 0 0.6rem;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.2s;
+        }
+
+        .lang-links a:hover {
+            color: #d4a373;
+            text-decoration: underline;
+        }
+
+        /* logo + whatsapp floating style */
+        .logo-wa {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 1.2rem 2rem;
+            background: #ffffffd9;
+            backdrop-filter: blur(5px);
+            position: sticky;
+            top: 0;
+            z-index: 99;
+            box-shadow: 0 4px 18px rgba(0 0 0 / 5%);
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo-img {
+            width: 60px;
+            height: auto;
+            border-radius: 50%;
+            border: 3px solid #d4a373;
+            transition: transform 0.5s;
+        }
+
+        .logo-img:hover {
+            transform: rotate(10deg) scale(1.1);
+        }
+
+        .whatsapp-float {
+            background-color: #25D366;
+            padding: 0.6rem 1.6rem;
+            border-radius: 40px;
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: 0.3s;
+            box-shadow: 0 4px 12px rgba(37, 211, 101, 0.3);
+        }
+
+        .whatsapp-float i {
+            font-size: 1.5rem;
+        }
+
+        .whatsapp-float:hover {
+            background-color: #1da959;
+            transform: translateY(-4px);
+        }
+
+        /* main container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        .section-title {
+            font-size: 2.3rem;
+            font-family: 'Playfair Display', serif;
+            position: relative;
+            margin-bottom: 2rem;
+            color: #2e2e2e;
+        }
+
+        .section-title:after {
+            content: '';
+            width: 80px;
+            height: 4px;
+            background: #d4a373;
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+        }
+
+        /* uniform grid with aspect ratio */
+        .grid-modern {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.8rem;
+            margin: 3rem 0;
+        }
+
+        .grid-card {
+            background: white;
+            border-radius: 28px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px -12px rgba(0,0,0,0.2);
+            transition: all 0.35s;
+            border: 1px solid rgba(212, 163, 115, 0.2);
+        }
+
+        .grid-card:hover {
+            transform: translateY(-15px) scale(1.02);
+            box-shadow: 0 30px 40px -10px #aa7a4e80;
+        }
+
+        .image-wrapper {
+            width: 100%;
+            aspect-ratio: 4 / 3;  /* uniform rectangular */
+            overflow: hidden;
+        }
+
+        .image-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.7s;
+        }
+
+        .grid-card:hover img {
+            transform: scale(1.1);
+        }
+
+        .card-caption {
+            padding: 1.2rem 1rem 1.5rem;
+            text-align: center;
+            background: white;
+        }
+
+        .card-caption i {
+            color: #d4a373;
+            font-size: 1.2rem;
+            margin: 0 5px;
+        }
+
+        /* about section with animation */
+        .about-modern {
+            background: #fff8f0;
+            padding: 3rem;
+            border-radius: 50px 0 50px 0;
+            box-shadow: inset 0 -2px 10px #f5e2d0;
+            line-height: 1.9;
+            margin: 2rem 0;
+            animation: slideIn 1s ease;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        .about-modern p {
+            margin-bottom: 1.2rem;
+            font-size: 1.1rem;
+        }
+
+        .highlight {
+            color: #a47148;
+            font-weight: 700;
+        }
+
+        /* booking form fancy */
+        .booking-card {
+            background: linear-gradient(145deg, #ffffff, #f7efe5);
+            border-radius: 40px;
+            padding: 2.5rem;
+            box-shadow: 0 25px 45px -12px #bc9b7a;
+            max-width: 700px;
+            margin: 3rem auto;
+        }
+
+        .form-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.2rem;
+        }
+
+        .form-group {
+            flex: 1 1 200px;
+        }
+
+        .booking-card input {
+            width: 100%;
+            padding: 1rem 1.2rem;
+            border: 1px solid #e2d4c5;
+            border-radius: 60px;
+            font-size: 1rem;
+            outline: none;
+            transition: 0.2s;
+            background: white;
+        }
+
+        .booking-card input:focus {
+            border-color: #b48b5a;
+            box-shadow: 0 0 0 4px #d4a37340;
+        }
+
+        .booking-card input[type="submit"] {
+            background: #2c3e4e;
+            color: white;
+            border: none;
+            font-weight: 700;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-top: 0.5rem;
+        }
+
+        .booking-card input[type="submit"]:hover {
+            background: #1f2e3a;
+            transform: scale(1.02);
+            box-shadow: 0 10px 20px #00000030;
+        }
+
+        /* badges & partners */
+        .partner-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+            margin: 2rem 0;
+        }
+
+        .partner-item {
+            background: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 100px;
+            box-shadow: 0 5px 12px #0000000a;
+            transition: 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .partner-item img {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+
+        .partner-item:hover {
+            transform: scale(1.05);
+            background: #f5ebe1;
+        }
+
+        /* big images section (uniform as well) */
+        .showcase {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            margin: 3rem 0;
+        }
+
+        .showcase-card {
+            flex: 1 1 300px;
+            max-width: 380px;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 20px 35px -5px #1f1f1f33;
+            transition: 0.4s;
+        }
+
+        .showcase-card img {
+            width: 100%;
+            aspect-ratio: 4/3;
+            object-fit: cover;
+            display: block;
+        }
+
+        .showcase-card:hover {
+            transform: translateY(-8px) rotate(0.5deg);
+        }
+
+        /* footer */
+        .footer-modern {
+            background: #1e2a32;
+            color: #ddd;
+            padding: 2rem 2rem 1rem;
+            text-align: center;
+            clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 100%);
+            margin-top: 4rem;
+        }
+
+        .footer-modern a {
+            color: #fad6b3;
+            text-decoration: none;
+        }
+
+        .footer-modern a:hover {
+            text-decoration: underline;
+        }
+
+        .social-icons i {
+            font-size: 1.8rem;
+            margin: 1rem 0.8rem;
+            color: #c7b199;
+            transition: 0.2s;
+        }
+
+        .social-icons i:hover {
+            color: #d4a373;
+            transform: scale(1.2);
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #d4a373, transparent);
+            margin: 1.5rem 0;
+        }
+
+        /* animations general */
+        .fade-up {
+            animation: fadeUp 1s both;
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* mobile fix */
+        @media (max-width: 600px) {
+            .logo-wa {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
             }
-        };
-
-        function changeLanguage() {
-            const selectedLanguage = document.getElementById('languageSelect').value;
-            document.querySelectorAll('[data-translate]').forEach(element => {
-                const key = element.getAttribute('data-translate');
-                element.innerText = translations[selectedLanguage][key];
-            });
+            .btn {
+                padding: 0.6rem 1.4rem;
+                font-size: 0.9rem;
+            }
+            .lang-bar {
+                justify-content: center;
+            }
         }
-    </script>
-</head>
 
-</html>
+        /* safari elements */
+        .elephant-icon {
+            font-size: 2rem;
+            display: inline-block;
+            animation: wobble 3s infinite;
+        }
+
+        @keyframes wobble {
+            0%,100%{ transform: rotate(0deg); }
+            25%{ transform: rotate(5deg); }
+            75%{ transform: rotate(-5deg); }
+        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Elephant's Crest Lodge - Victoria Falls</h1><img id="b" src="images/logo.jpeg">
-        <p>Your ideal getaway in the heart of nature</p>
-    </header>
-    <div class="container">
-        <h2>Welcome to Elephant's Crest Lodge</h2> <a href="https://api.whatsapp.com/send?phone=%2B263789330076&data=ARArWsDNitpWZheDda1cy78LTY1BSsjPn6c5_YJ492M1sTHf3qNvD9NDIKQxi_jQQN-PvMdjncOxTtlHWB-y1_5s_Igx-9PST05H4AMjusDB4CCMF_-stHU1mlAIxp1cleMGK6mV5_FgCKuf0aYLcvM4Vw&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR35dsDp1hRv3XR7CKfl_JQFM9sFJfqnGRnaL3AUPwHv1xIcT_6wOcCfSX0"><img id="whatsapp" src="images/whats.jpeg">Whatsapp<a/><br>
-            <br><br>
-            
-    <header>
-        <h1 data-translate="header">Header Section</h1>
-    </header>
-    
-    
 
-
-    <label data-translate="languageLabel" for="languageSelect">Choose Language:</label>
+<!-- Language selector & french/spanish links -->
+<div class="lang-bar">
+    <span><i class="fas fa-globe"></i> Language:</span>
     <select id="languageSelect" onchange="changeLanguage()">
-        <option value="en">English</option>
-        <option value="es">Español</option>
-        <option value="fr">Français</option>
-    </select>                  <a id="french" href="details.html">French</a>
-				<a id="french" href="spanish.html">Spanish</a>
+        <option value="en">🇬🇧 English</option>
+        <option value="es">🇪🇸 Español</option>
+        <option value="fr">🇫🇷 Français</option>
+    </select>
+    <div class="lang-links">
+        <a href="details.html"><i class="fas fa-flag"></i> French</a>
+        <a href="spanish.html"><i class="fas fa-flag"></i> Spanish</a>
+    </div>
+</div>
 
-            <br>
-            <div class="grid">
-            <div class="grid-item">
-               <img src="images/mali.jpeg" alt="Image 1">
-            </div>
-            <div class="grid-item">
-                 <img src="images/o.jpeg" alt="Image 2">
-            </div>
-            <div class="grid-item">
-               <img src="images/k.jpeg" alt="Image 3">
-            </div>
+<!-- Sticky logo + whatsapp animated -->
+<div class="logo-wa">
+    <div class="logo-area">
+        <img class="logo-img" src="https://via.placeholder.com/200x200?text=🐘+Logo" alt="Elephant Crest Lodge logo">
+        <span style="font-weight:700; font-size:1.4rem; color:#2e2e2e;">Elephant's Crest</span>
+    </div>
+    <a href="https://api.whatsapp.com/send?phone=%2B263789330076&text=Hello%20Elephant's%20Crest!" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i> Chat with us
+    </a>
+</div>
 
-            <div class="grid-item">
-                 <img src="images/a.jpeg" alt="Image 1">
-            </div>
-            <div class="grid-item">
-                <img src="images/t.jpeg" alt="Image 2">
-            </div>
-            <div class="grid-item">
-                 <img src="images/j.jpeg" alt="Image 3">
-            </div>
-            <!-- Add more images as needed -->
-        </div>
-        
-        <h3>Book Your Stay</h3>
+<!-- Hero with animation -->
+<section class="hero">
+    <div class="hero-content">
+        <span class="elephant-icon">🐘✨</span>
+        <h1>Elephant's Crest Lodge</h1>
+        <p>Your home away from home, where wilderness meets luxury</p>
+        <a href="#booking" class="btn"><i class="fas fa-calendar-check"></i> Book Your Stay</a>
+        <a href="#about" class="btn btn-outline"><i class="fas fa-tree"></i> Discover</a>
+    </div>
+</section>
+
+<div class="container">
+    <!-- Welcome section with dynamic translation placeholders (simple) -->
+    <h2 class="section-title" data-translate="title">Welcome to Elephant's Crest Lodge</h2>
+    <p style="font-size:1.2rem; margin-bottom:2rem;" data-translate="content">Your ideal getaway in the heart of nature, just 1.5km from Victoria Falls Game Reserve.</p>
+
+    <!-- Uniform beautiful grid (images) -->
+    <div class="grid-modern">
+        <div class="grid-card"><div class="image-wrapper"><img src="https://images.unsplash.com/photo-1547471080-7cc2caa01e7e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Lodge exterior" loading="lazy"></div><div class="card-caption"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> <br> Luxury Suite</div></div>
+        <div class="grid-card"><div class="image-wrapper"><img src="https://images.unsplash.com/photo-1586500036706-41963de24d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Elephant safari"></div><div class="card-caption"><i class="fas fa-paw"></i> Elephant view deck</div></div>
+        <div class="grid-card"><div class="image-wrapper"><img src="https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Victoria Falls"></div><div class="card-caption"><i class="fas fa-water"></i> Helicopter rides</div></div>
+        <div class="grid-card"><div class="image-wrapper"><img src="https://images.unsplash.com/photo-1529903544737-b0f6f9b60dcd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Canoeing"></div><div class="card-caption"><i class="fas fa-canoe"></i> Canoeing adventures</div></div>
+        <div class="grid-card"><div class="image-wrapper"><img src="https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sunset"></div><div class="card-caption"><i class="fas fa-sun"></i> Sunset cruises</div></div>
+        <div class="grid-card"><div class="image-wrapper"><img src="https://images.unsplash.com/photo-1589805674587-73c33a1c0976?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Room interior"></div><div class="card-caption"><i class="fas fa-bed"></i> Elegant rooms</div></div>
+    </div>
+
+    <!-- About Us with fancy animation -->
+    <div id="about" class="about-modern">
+        <h2 class="section-title">About Us</h2>
+        <p><span class="highlight">Welcome to Elephant's Crest Lodge</span>, where luxury meets adventure amidst the breathtaking landscapes of Victoria Falls, Zimbabwe. Nestled just 1.5 kilometers from the renowned Victoria Falls Game Reserve, our lodge invites you to embark on a journey of unparalleled safari experiences.</p>
+        <p>Imagine waking up to the calls of the wild and stepping onto your private veranda to witness elephants majestically roaming nearby, as the African sun paints the sky in hues of orange and gold. Every detail has been meticulously crafted to ensure your stay exceeds expectations.</p>
+        <p><i class="fas fa-check-circle" style="color:#d4a373;"></i> Guided safari excursions • Big Five • Bush walks • Sunset river cruises • Helicopter tours</p>
+    </div>
+
+    <!-- Booking form anchor -->
+    <div id="booking"></div>
+    <div class="booking-card">
+        <h3 style="font-size:2rem; font-family:'Playfair Display'; margin-bottom:1.5rem;"><i class="fas fa-pen-alt"></i> Book Your Safari</h3>
         <form action="https://formsubmit.co/webster.malilani@gmail.com" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <input type="text" name="check_in" placeholder="Check-in Date" required>
-            <input type="text" name="check_out" placeholder="Check-out Date" required>
-            <input type="submit" value="Book Now">
+            <div class="form-row">
+                <div class="form-group"><input type="text" name="name" placeholder="Your name" required></div>
+                <div class="form-group"><input type="email" name="email" placeholder="Email address" required></div>
+            </div>
+            <div class="form-row">
+                <div class="form-group"><input type="text" name="check_in" placeholder="Check-in date" onfocus="(this.type='date')" required></div>
+                <div class="form-group"><input type="text" name="check_out" placeholder="Check-out date" onfocus="(this.type='date')" required></div>
+            </div>
+            <input type="submit" value="BOOK NOW">
         </form>
     </div>
-    <hr>
-    <br>
-    <h4>About Us</h4><br>
-    <br>
-   <p> Welcome to Elephant's Crest Lodge, where luxury meets adventure amidst the breathtaking landscapes of Victoria Falls, Zimbabwe.<br> Nestled just 1.5 kilometers from the renowned Victoria Falls Game Reserve, our lodge invites you to embark on a journey of <br>unparalleled safari experiences.<br>
 
-At Elephant's Crest Lodge, we pride ourselves on offering discerning travelers the epitome of luxury accommodation coupled with<br> exhilarating wildlife encounters. Imagine waking up to the calls of the wild and stepping onto your private veranda to witness elephants<br> majestically roaming nearby, as the African sun paints the sky in hues of orange and gold.<br>
+    <!-- Partner badges -->
+    <div class="partner-grid">
+        <div class="partner-item"><img src="https://via.placeholder.com/60?text=ABNB" alt="Airbnb"> <span>Airbnb</span></div>
+        <div class="partner-item"><img src="https://via.placeholder.com/60?text=LODGE" alt="Lodging World"> <span>Lodging World</span></div>
+        <div class="partner-item"><img src="https://via.placeholder.com/60?text=SAFARI" alt="Safari bookings"> <span>SafariBookings</span></div>
+    </div>
 
-Our lodge provides a sanctuary of comfort and elegance, where every detail has been meticulously crafted to ensure your stay exceeds<br> expectations. Indulge in spacious and lavishly appointed rooms, each offering panoramic views of the surrounding wilderness. Unwind in <br>style amidst modern amenities while immersing yourself in the sights and sounds of the African bush.<br>
+    <!-- Showcase big images: uniform beautiful -->
+    <div class="showcase">
+        <div class="showcase-card"><img src="https://images.unsplash.com/photo-1523805009345-7448845a9e53?w=800&auto=format" alt="Victoria Falls view"></div>
+        <div class="showcase-card"><img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&auto=format" alt="Elephant at sunset"></div>
+        <div class="showcase-card"><img src="https://images.unsplash.com/photo-1569344885250-2557b3e96a77?w=800&auto=format" alt="Lodge pool"></div>
+    </div>
 
-Venture out on guided safari excursions led by our experienced rangers, as you traverse the untamed terrain in search of Africa's iconic<br> Big Five and other mesmerizing wildlife species. Whether it's a thrilling game drive, a serene bush walk, or a captivating sunset river <br>cruise, every moment promises to be filled with awe and wonder.<br>
+    <!-- extra links with icons -->
+    <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; margin: 3rem 0;">
+        <a href="http://tribalclan-safaritour.site/" class="btn" style="background:#6b4f3a; color:white;"><i class="fas fa-hiking"></i> Holiday Activities</a>
+        <a href="https://www.airbnb.com/rooms/1119558565545731068" class="btn" style="background:#ff5a5f; color:white;"><i class="fab fa-airbnb"></i> Book via Airbnb</a>
+        <a href="https://www.safaribookings.com/" class="btn" style="background:#2c5f2d;"><i class="fas fa-binoculars"></i> Safari Booking</a>
+    </div>
+</div>
 
-Beyond the safari, Elephant's Crest Lodge offers a myriad of unforgettable experiences, from cultural encounters with local communities to<br> adrenaline-pumping activities such as bungee jumping or helicopter rides over the majestic Victoria Falls.<br>
-
-Come and experience the ultimate blend of luxury and adventure at Elephant's Crest Lodge, where every day brings new discoveries and <br>unforgettable memories in the heart of Zimbabwe's wilderness. Your safari adventure of a lifetime awaits.<br></p>
-<br>
-            <a href="http://tribalclan-safaritour.site/">Holiday Activities</a><br><br>
-        <br>
-<hr>
-<br>
-
-<a href="https://www.airbnb.com/rooms/1119558565545731068?guests=1&adults=1&s=67&unique_share_id=18cb2cdc-8fb7-4058-b6e0-5209b75046a6"><img id="d" src="images/loga.jpeg"></a><br>
-            Click above to book via Air B n B website.<br>
-            
-<br>
-<p>
-<img id="c" src="images/vic.jpeg"><br><br>
-<img id="c" src="images/voc.jpeg"><br><br>
-<img id="c" src="images/vac.jpeg"><br><br>
-    <a href="https://www.lodging-world.com/ "><img id="d" src="images/logo.webp"></a> Lodging World<br><br>
-
-<hr>
-<footer>
-    <br>
-    <a id="safari" href="https://www.safaribookings.com/">Safari Booking</a><br><br>
-    
-    &copy Elephant Crest Lodge 2024     Email: webster.malilani@gmail.com<br>
-    <br>
+<!-- footer modern -->
+<footer class="footer-modern">
+    <div class="social-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-tripadvisor"></i>
+        <i class="fab fa-x-twitter"></i>
+    </div>
+    <p><i class="far fa-copyright"></i> Elephant's Crest Lodge 2025   |   Email: <a href="mailto:webster.malilani@gmail.com">webster.malilani@gmail.com</a></p>
+    <p style="margin-top:1rem; font-size:0.9rem;">📍 1.5km from Victoria Falls Game Reserve, Zimbabwe</p>
 </footer>
-</p>
 
-            
-
-
+<!-- very simple translation functionality (preserved from original) -->
+<script>
+    const translations = {
+        en: { title: "Welcome to Elephant's Crest Lodge", content: "Your ideal getaway in the heart of nature, just 1.5km from Victoria Falls Game Reserve.", header: "Header", footer: "Footer", about: "About Us", contact: "Contact" },
+        es: { title: "Bienvenido a Elephant's Crest Lodge", content: "Su escapada ideal en el corazón de la naturaleza, a 1.5 km de la Reserva de Caza Victoria Falls.", header: "Encabezado", footer: "Pie de página", about: "Sobre Nosotros", contact: "Contacto" },
+        fr: { title: "Bienvenue à Elephant's Crest Lodge", content: "Votre escapade idéale au cœur de la nature, à 1,5 km de la réserve de chasse de Victoria Falls.", header: "En-tête", footer: "Pied de page", about: "À Propos", contact: "Contact" }
+    };
+    function changeLanguage() {
+        const lang = document.getElementById('languageSelect').value;
+        document.querySelectorAll('[data-translate]').forEach(el => {
+            const key = el.getAttribute('data-translate');
+            if (translations[lang][key]) el.innerText = translations[lang][key];
+        });
+    }
+    // small extra animations on scroll (optional)
+    window.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.grid-card, .about-modern, .booking-card').forEach(el => el.classList.add('fade-up'));
+    });
+</script>
+<!-- note: images are unsplash high-quality placeholders; replace with actual images. -->
 </body>
 </html>
